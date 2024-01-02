@@ -80,10 +80,10 @@ public class MahaSiswa {
 
     public static void main(String[] args) {
 
-        Mahasiswa mahasiswa = new Mahasiswa(nama: "Berliyano", umur:21);
-        Mahasiswa.MahasiswaBaru mahasiswaBaru = mahasiswa.new MahasiswaBaru(nama: "Berliyano", umur: 21, nim:22166036);
+        Mahasiswa mahasiswa = new Mahasiswa(nama: "aziz", umur:19);
+        Mahasiswa.MahasiswaBaru mahasiswaBaru = mahasiswa.new MahasiswaBaru(nama: "aziz", umur: 19, nim:22166026);
         MahasiswaBaru.displayInfo();
-        Mahasiswa.MahasiswaLama mahasiswaLama = mahasiswa.new MahasiswaLama(nama:"Mariadi", umur:25, angkatan 2018);
+        Mahasiswa.MahasiswaLama mahasiswaLama = mahasiswa.new MahasiswaLama(nama:"joko", umur:22, angkatan 2019);
         mahasiswaLama.displayInfo();
     }
 
